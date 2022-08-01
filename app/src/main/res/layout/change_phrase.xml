@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView_enter_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/enter_request"
+            android:textColor="#FF3333"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/EditText_enter_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="Search text"
+            android:maxLength="150"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZабвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ,.1234567890 "
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/frame_edittext">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/TextView_number_of_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/number_of_requests"
+            android:textColor="#FF3333"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner_number_of_requests"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:entries="@array/number_of_requests"
+            android:background="@drawable/frame_edittext" />
+
+
+        <TextView
+            android:id="@+id/TextView_pause_between_requests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/pause_between_requests"
+            android:textColor="#FF3333"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner_pause_between_requests"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:entries="@array/pause"
+            android:background="@drawable/frame_edittext" />
+
+
+
+        <Button
+            android:id="@+id/Button_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="change"
+            android:text="@string/change"
+            android:textColor="#34D800" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

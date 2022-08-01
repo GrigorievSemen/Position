@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Position</string>
+    <string name="add_request">Добавить запрос</string>
+    <string name="add_url">+</string>
+    <string name="delete_url">-</string>
+    <string name="enter_request">Поле для ввода запроса</string>
+    <string name="number_of_requests">Количество запросов</string>
+    <string name="pause_between_requests">Пауза между запросами (сек)</string>
+    <string name="add">Добавить</string>
+    <string name="change">Изменить</string>
+    <string name="find_out_position_number">Узнать номер позиции</string>
+
+    <string-array name="number_of_requests">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="pause">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="show_request">
+
+    </string-array>
+</resources>

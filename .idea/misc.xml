@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/drawable/frame_button.xml" value="0.5703125" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/drawable/frame_edittext.xml" value="0.346875" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/drawable/ic_launcher_background.xml" value="0.346875" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/layout/activity_main.xml" value="0.1763085399449036" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/layout/change_phrase.xml" value="0.3867924528301887" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/layout/phrase_date.xml" value="0.1" />
+        <entry key="..\:/Users/Sem/Desktop/Programming/JavaProject/AndroidStudio/Position/app/src/main/res/layout/showresultsearch.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

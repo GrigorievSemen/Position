@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151">
+
+    <LinearLayout
+        android:id="@+id/Li_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button_add_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:onClick="add_request"
+            android:background="@drawable/frame_edittext"
+            android:text="@string/add_request"
+             />
+
+        <Button
+            android:id="@+id/Button_find_out_position_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/frame_edittext"
+            android:onClick="find_out_position_number"
+            android:text="@string/find_out_position_number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Li_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/Spinner_url_company"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame_edittext"
+            android:spinnerMode="dialog" />
+
+        <Button
+            android:id="@+id/Button_add_toSpinner"
+            android:layout_width="46dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:onClick="add_toSpinner"
+            android:background="@drawable/frame_edittext"
+            android:text="@string/add_url"
+            />
+
+        <Button
+            android:id="@+id/Button_delete_toSpinner"
+            android:layout_width="46dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="delete_toSpinner"
+            android:background="@drawable/frame_edittext"
+            android:text="@string/delete_url"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Li_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="35dp">
+
+        <LinearLayout
+            android:id="@+id/Li_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Li_1"
+                android:layout_marginTop="30dp"
+                android:background="#515151">
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
